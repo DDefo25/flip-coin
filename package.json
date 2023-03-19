@@ -1,0 +1,31 @@
+{
+  "name": "flip-coin",
+  "version": "1.0.0",
+  "description": "can you guess side a coin?",
+  "main": "index.js",
+  "bin": {
+    "flip-coin": "./index.js",
+    "analyse": "./analyse.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DDefo25/flip-coin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DDefo25/flip-coin/issues"
+  },
+  "homepage": "https://github.com/DDefo25/flip-coin#readme",
+  "dependencies": {
+    "nodemon": "^2.0.21",
+    "yargs": "^17.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0"
+  }
+}
